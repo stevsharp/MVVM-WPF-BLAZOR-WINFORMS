@@ -1,0 +1,8 @@
+﻿@page "/"
+@inject CounterViewModel VM
+<PageTitle>Home</PageTitle>
+
+
+<h3>Count: @VM.Count</h3>
+
+<button @onclick="VM.Increment">Increment</button>
