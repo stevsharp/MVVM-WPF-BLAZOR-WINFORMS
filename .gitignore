@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WpfAppMVVM/bin/Debug/net9.0-windows
+/WpfAppMVVM/obj/Debug/net9.0-windows
+/BlazorAppMVVM/bin/Debug/net9.0
+/BlazorAppMVVM/obj/Debug/net9.0
+/BlazorAppMVVM/obj/Release/net9.0
+/BlazorAppMVVM/obj
+/WpfAppMVVM/obj
