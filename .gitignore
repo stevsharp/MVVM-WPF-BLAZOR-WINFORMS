@@ -10,3 +10,5 @@
 /BlazorAppMVVM/obj
 /WpfAppMVVM/obj
 /.vs
+/WpfAppCommunityMVVM/bin/Debug/net9.0-windows
+/WpfAppCommunityMVVM/obj
