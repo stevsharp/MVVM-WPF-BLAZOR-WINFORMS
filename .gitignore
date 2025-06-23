@@ -14,4 +14,6 @@
 /WpfAppCommunityMVVM/obj
 /WpfAppMVVMFluentValidation/bin/Debug/net9.0-windows
 /WpfAppMVVMFluentValidation/obj
-/BlazorMvvmToolkit
+/BlazorMvvmToolkit/bin/Debug/net9.0
+/BlazorMvvmToolkit/obj/Debug/net9.0
+/BlazorMvvmToolkit/obj
