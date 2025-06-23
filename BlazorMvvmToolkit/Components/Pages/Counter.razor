@@ -1,0 +1,19 @@
+﻿@page "/counter"
+@using BlazorMvvmToolkit.ViewModel
+
+<PageTitle>Counter</PageTitle>
+
+@inject CounterViewModel Vm
+
+<p>Count: @Vm.Count</p>
+
+<button @onclick="Vm.IncrementCommand.Execute">+</button>
+
+@code{
+
+    protected override void OnInitialized()
+    {
+        Vm.PropertyChanged += (_, _) => InvokeAsync(StateHasChanged);
+    }
+
+}
