@@ -16,7 +16,7 @@ public partial class LoginViewModel : ObservableValidator
     private string password = string.Empty;
 
     [ObservableProperty]
-    private string message;
+    private string message = default!;
 
     [RelayCommand]
     private void Login()
