@@ -9,3 +9,14 @@ C:\git\WindowsFormsAppMVVM\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.exe
 C:\git\WindowsFormsAppMVVM\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.pdb
 C:\git\WindowsFormsAppMVVM\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.exe.config
 C:\git\WindowsFormsAppMVVM\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.Form1.resources
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\bin\Debug\WindowsFormsAppMVVM.exe.config
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\bin\Debug\WindowsFormsAppMVVM.exe
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\bin\Debug\WindowsFormsAppMVVM.pdb
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.csproj.AssemblyReference.cache
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.exe.config
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.Form1.resources
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.Properties.Resources.resources
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.csproj.GenerateResource.cache
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.csproj.CoreCompileInputs.cache
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.exe
+C:\git\WindowsFormsAppMVVM\MVVM-WPF-BLAZOR-WINFORMS\WindowsFormsAppMVVM\obj\Debug\WindowsFormsAppMVVM.pdb

@@ -1,7 +1,50 @@
 ﻿@page "/"
+@using BlazorMvvmToolkit.ViewModel
+@using System.ComponentModel
 
-<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+@inject LoginViewModel Vm
 
-Welcome to your new app.
+<h3>Login</h3>
+
+<EditForm Model="Vm" OnValidSubmit="Vm.LoginCommand.Execute">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>Username:</label>
+        <InputText class="form-control" @bind-Value="Vm.Username" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password:</label>
+        <InputText class="form-control" type="password" @bind-Value="Vm.Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+
+</EditForm>
+
+
+
+@if (!string.IsNullOrWhiteSpace(Vm.Message))
+{
+    <div class="mt-3 alert alert-info">@Vm.Message</div>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        Vm.PropertyChanged += OnViewModelPropertyChanged;
+    }
+
+    private void OnViewModelPropertyChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        Vm.PropertyChanged -= OnViewModelPropertyChanged;
+    }
+}

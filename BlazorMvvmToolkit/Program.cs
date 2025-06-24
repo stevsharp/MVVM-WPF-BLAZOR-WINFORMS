@@ -8,6 +8,7 @@ builder.Services.AddRazorComponents()
         .AddInteractiveServerComponents();
 
 builder.Services.AddScoped<CounterViewModel>();
+builder.Services.AddScoped<LoginViewModel>();
 
 var app = builder.Build();
 
